@@ -1,0 +1,21 @@
+#exercitando o "format" - método antigo
+
+
+print('---------Tipos Primitivos---------')
+obj = input('Digíte algo:')
+pmt = type(obj)
+esp = obj.isspace()
+num = obj.isnumeric()
+afb = obj.isalpha()
+afn = obj.isalnum()
+mai = obj.isupper()
+min = obj.islower()
+cap = obj.istitle()
+print('O tipo primitivo desse valor é {}'.format(pmt))
+print('Só tem espaços? {}' .format(esp))
+print('É um número? {}' .format(num))
+print('É alfabético? {}' .format(afb))
+print('É alfanúmerico? {}' .format(afn))
+print('Está em maiusculas? {}' .format(mai))
+print('Está em minúsculas? {}' .format(min))
+print('Está capitalizada? {}' .format(cap))
